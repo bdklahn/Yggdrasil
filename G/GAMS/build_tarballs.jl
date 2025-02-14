@@ -7,7 +7,7 @@ version = v"48.6.1"
 
 url_prefix = "https://d37drm4t2jghv5.cloudfront.net/distributions/$version"
 
-# Collection of sources required to build micromamba
+# Collection of sources required for GAMS
 sources = [
     FileSource("$url_prefix/linux/linux_x64_64_sfx.exe",
         "f6f0cbc085808a418d2d55d2f9744002a8139c0afdb20020d0465b4cbaafb9a2",
